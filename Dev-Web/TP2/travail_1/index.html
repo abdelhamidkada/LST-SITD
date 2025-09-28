@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <legend><b>Vos Coordonnées</b></legend>
+        <table border="0" width="100%">
+          <tr>
+            <td width="40%">Nom :</td>
+            <td width="60%">
+              <input type="text" placeholder="votre nom" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Prénom :</td>
+            <td width="60%">
+              <input type="text" placeholder="votre prénom" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Date de naissance :</td>
+            <td width="60%">
+              <input type="date" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Mail :</td>
+            <td width="60%">
+              <input type="email" placeholder="votre mail" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Votre site :</td>
+            <td width="60%">
+              <input type="url" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Code :</td>
+            <td width="60%">
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Genre :</td>
+            <td width="60%">
+              <input type="radio" name="genre" value="homme" />Homme<br />
+              <input type="radio" name="genre" value="femme" />Femme
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Pays:</td>
+            <td width="60%">
+              <select name="pays">
+                <optgroup label="Pays">
+                  <option value="" disabled hidden selected>
+                    Selectionner un pays
+                  </option>
+                  <option value="Maroc">Maroc</option>
+                  <option value="Algerie">Algerie</option>
+                  <option value="Tunis">Tunis</option>
+                  <option value="France">France</option>
+                  <option value="Espagne">Espagne</option>
+                  <option value="Italie">Italie</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend><b>Vos gouts</b></legend>
+        <input
+          type="checkbox"
+          name="gouts"
+          value="Tarte aux fraises à la crème d'amandes"
+        />
+        <label for="gouts">Tarte aux fraises à la crème d'amandes</label>
+        <br />
+        <input type="checkbox" name="gouts" value="Tarte aux prunes" />
+        <label for="gouts">Tarte aux prunes</label>
+        <br />
+        <input
+          type="checkbox"
+          name="gouts"
+          value="Tarte rustique aux mirabelles de Lorraine, noisettes et miel"
+        />
+        <label for="gouts">
+          Tarte rustique aux mirabelles de Lorraine, noisettes et miel
+        </label>
+        <br />
+        <textarea
+          name="description"
+          placeholder="Décrivez vos gouts en détail"
+          rows="4"
+          cols="50"
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <legend><b>Envoyer nous votre photo</b></legend>
+        <input type="file" />
+        <br /><br />
+        <button type="reset" value="effacer">Effecer</button>
+        <button type="submit" value="envoyer">Envoyer</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

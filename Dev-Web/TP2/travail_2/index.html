@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset>
+        <table width="100%" border="1">
+          <legend>Création de CV</legend>
+          <tr>
+            <td width="40%">Titre</td>
+            <td width="60%">
+              <select name="titre">
+                <optgroup name="titre">
+                  <option value="Mr" disabled selected hidden>
+                    Selectioner
+                  </option>
+                  <option value="Mr">Mr</option>
+                  <option value="Mr">Mme</option>
+                  <option value="Mr">Mlle</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Nom:</td>
+            <td width="60%">
+              <input type="text" size="30" placeholder="votre nom" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Prénom:</td>
+            <td width="60%">
+              <input type="text" size="30" placeholder="votre prénom" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Age</td>
+            <td width="60%" type="text"></td>
+          </tr>
+          <tr>
+            <td width="40%">Téléphone</td>
+            <td width="60%">
+              <input type="tel" name="telephone" placeholder="Téléphone" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Email</td>
+            <td width="60%">
+              <input type="email" placeholder="user@domaine.com" />
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Adresse</td>
+            <td width="60%">
+              <textarea
+                name="adresse"
+                placeholder="Adresse"
+                cols="50"
+                rows="3"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Diplômes</td>
+            <td width="60%">
+              <select name="diplome">
+                <optgroup name="titre">
+                  <option value="diplome" disabled selected hidden>
+                    Selectioner
+                  </option>
+                  <option value="Mr">Bac</option>
+                  <option value="Mr">Bac+2</option>
+                  <option value="Mr">Bac+3</option>
+                  <option value="Mr">Bac+5</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Expérience professionnelle</td>
+            <td width="60%">
+              <textarea
+                name="experience"
+                placeholder="votre expérience"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Langues</td>
+            <td width="60%">
+              <input type="checkbox" name="langues" /> Arabe <br />
+              <input type="checkbox" name="langues" /> Français <br />
+              <input type="checkbox" name="langues" /> Anglais <br />
+              <input type="checkbox" name="langues" /> Espagnole <br />
+              <input type="checkbox" name="langues" /> Allmend
+            </td>
+          </tr>
+          <tr>
+            <td width="40%">Loisirs</td>
+            <td width="60%">
+              <input type="checkbox" name="langues" /> Lecture <br />
+              <input type="checkbox" name="langues" /> Sport <br />
+              <input type="checkbox" name="langues" /> Natation <br />
+              <input type="checkbox" name="langues" /> Cuisine <br />
+              <input type="checkbox" name="langues" /> Filme
+            </td>
+          </tr>
+        </table>
+        <br />
+        <button type="submit">Envoyer</button>
+        <button type="reset">Annuler</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

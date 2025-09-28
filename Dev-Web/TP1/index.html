@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FSTS</title>
+  </head>
+  <body>
+    <!-- 1. Balises <title> et <body>-->
+    <p>Bienvenue à. FSTS dans la balise</p>
+
+    <!-- 2. Les titres et les paragraphes -->
+    <h1>Objectifs</h1>
+    <p>
+      Bienvenue à la FSTS, Dans ce TP vous allez maitriser l'ajout des objects
+      paragraphe, image, tableau, colorier les arrières plan et les font
+      d'écriture. Ajouter aussi les liens hypertexte, les listes ordonnées et
+      non ordonnées ainsi que certaines balises sémantiques.
+    </p>
+    <h2>FSTS</h2>
+    <h3>FSTS</h3>
+    <h4>FSTS</h4>
+    <h5>FSTS</h5>
+    <h6>FSTS</h6>
+
+    <img
+      src="Images/logo.png"
+      alt="Logo de la FSTS"
+      height="100px"
+      width="100px"
+    />
+
+    <p>
+      Bienvenue à <a href="https://www.fsts.ac.ma/">la FSTS</a>, Dans ce TP vous
+      allez maitriser l'ajout des objects paragraphe, image, tableau, colorier
+      les arrières plan et les font d'écriture. Ajouter aussi les liens
+      hypertexte, les listes ordonnées et non ordonnées ainsi que certaines
+      balises sémantiques.
+    </p>
+    <a href="Espace_etudiant/inscription.html">Inscription</a>
+
+    <h1>Plan de cours</h1>
+    <ul type="square">
+      <li>Les paragraphes</li>
+      <li>Les liens hyper-texte</li>
+      <li>Les images</li>
+      <li>Les listes</li>
+      <li>Les tableaux</li>
+    </ul>
+    <ul type="disc">
+      <li>Les paragraphes</li>
+      <li>Les liens hyper-texte</li>
+      <li>Les images</li>
+      <li>Les listes</li>
+      <li>Les tableaux</li>
+    </ul>
+    <ul type="circle">
+      <li>Les paragraphes</li>
+      <li>Les liens hyper-texte</li>
+      <li>Les images</li>
+      <li>Les listes</li>
+      <li>Les tableaux</li>
+    </ul>
+    <dl>
+      <dt>Languages de programmation</dt>
+      <dd>Java</dd>
+      <dd>Python</dd>
+      <dd>PHP</dd>
+      <dt>SGBD</dt>
+      <dd>MySQL</dd>
+      <dd>Oracle</dd>
+      <dd>SQL Server</dd>
+    </dl>
+
+    <h1>Programme</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Order</th>
+          <th>Language</th>
+          <th>Nombre d'heurs</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>HTML</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>CSS</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>JavaScript</td>
+          <td>40</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <table border="1">
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+        <td rowspan="2" colspan="2">D</td>
+      </tr>
+      <tr>
+        <td>E</td>
+        <td>F</td>
+        <td>G</td>
+      </tr>
+      <tr>
+        <td>H</td>
+        <td>I</td>
+        <td colspan="2">J</td>
+      </tr>
+      <tr>
+        <td colspan="5">K</td>
+      </tr>
+    </table>
+    <h1>Présentation vidéo</h1>
+    <video
+      src="images/2086113-hd_1920_1080_30fps.mp4"
+      width="720"
+      controls
+      autoplay
+    >
+      Study video
+    </video>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/H8Q64gHNp6Y?si=iEs_khqIoV5vKDxd"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    >
+    </iframe>
+
+    <iframe
+      width="560"
+      height="400"
+      src="https://drive.google.com/file/d/1ezI8jrB9bZ_aQzvZbKq334VnYPIpafHQ/preview"
+      title="TP 1 HTML"
+      frameborder="0"
+      allowfullscreen
+    >
+    </iframe>
+
+    <table border="1" width="100%" height="600">
+      <tr>
+        <!-- nav a gauche sur 3 ligne -->
+        <td rowspan="3" width="20%">
+          <nav>&lt;nav&gt;</nav>
+        </td>
+
+        <!-- header en haut qui occupe 2 colonnes-->
+        <td colspan="2" height="20%">
+          <header>&lt;header&gt;</header>
+        </td>
+
+        <!-- aside a droite sur 3 lignes-->
+        <td rowspan="3" width="20%">
+          <aside>&lt;aside&gt;</aside>
+        </td>
+      </tr>
+      <tr>
+        <!-- Section au centre -->
+        <td colspan="2" height="60%">
+          <section>
+            &lt;section&gt;<br />
+            <header>&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt;</header>
+            <article>&nbsp;&nbsp;&nbsp;&nbsp;&lt;article&gt;</article>
+            <footer>&nbsp;&nbsp;&nbsp;&nbsp;&lt;footer&gt;</footer>
+            &lt;/section&gt;
+          </section>
+        </td>
+      </tr>
+      <tr>
+        <!-- Footer global au centre -->
+        <td colspan="2" height="20%">
+          <footer>&lt;footer&gt;</footer>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
