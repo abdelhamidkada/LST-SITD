@@ -1,0 +1,19 @@
+div {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px double blue;
+  border-radius: 10px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 10px 10px 15px cyan;
+  opacity: 0.3;
+  text-shadow: 10px 5px 10px yellow;
+  font-size: 30px;
+  font-family: cursive;
+  border-top-color: transparent;
+  background: red url("../images/2.png");
+  background-size: cover;
+}
